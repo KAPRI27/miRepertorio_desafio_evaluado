@@ -1,15 +1,17 @@
 {
-  "dependencies": {
-    "express": "^4.19.2",
-    "pg": "^8.11.5"
-  },
   "name": "mirepertorio_desafio_evaluado",
   "version": "1.0.0",
-  "description": "Levantar un servidor con",
+  "description": "Levantar un servidor con postgresql",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "type": "modules",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "pg": "^8.11.5"
   },
   "author": "pmaureira",
   "license": "ISC"
